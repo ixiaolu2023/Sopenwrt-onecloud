@@ -1,4 +1,4 @@
-name: immortalwrt
+name: openWrt
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
         description: '手动触发一次编译'
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   CONFIG_FILE: .config
   DIY_P1_SH: op1.sh
